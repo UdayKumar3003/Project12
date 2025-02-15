@@ -12,4 +12,7 @@ data "aws_ami" "ami_id"{
   }
 }
 
+locals {
+  name = "babuuu_server"
+}
 
